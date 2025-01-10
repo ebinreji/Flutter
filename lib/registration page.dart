@@ -127,8 +127,8 @@ class _RegistrationState extends State<Registration> {
              ),
              SizedBox(height: 40,),
              ElevatedButton(
-                 style: ElevatedButton.styleFrom(backgroundColor: Colors.blue,foregroundColor: Colors.white)
-                 ,onPressed: (){
+                 style: ElevatedButton.styleFrom(backgroundColor: Colors.blue,foregroundColor: Colors.white),
+                 onPressed: (){
                    var valid=formkey.currentState!.validate();
                    if(valid){
                      Navigator.push(context, MaterialPageRoute(builder: (context)=>Homepage()));
